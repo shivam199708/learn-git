@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<HEad>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitThree</title>
+    <link rel="stylesheet" href="style.css">
+</HEad>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>GitThree</h1>
+            <p>GitHub repository visualizer</p>
+        </div>
+        <div class="content">
+            <div class="form-group">
+                <label for="repo">Enter GitHub repository (e.g., user/repo):</label>
+                <input type="text" id="repo" placeholder="user/repo">
+                <button id="loadBtn">Load Repository</button>
+            </div>
+            <div id="repoInfo" class="repo-info"></div>
+            <div id="tree" class="tree"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
